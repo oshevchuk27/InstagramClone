@@ -8,14 +8,14 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <TextView
+    <EdiText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="username" />
 
-    <TextView
+    <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
