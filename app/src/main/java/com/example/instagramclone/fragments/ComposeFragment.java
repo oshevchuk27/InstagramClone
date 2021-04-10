@@ -23,18 +23,14 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.instagramclone.MainActivity;
 import com.example.instagramclone.Post;
 import com.example.instagramclone.R;
-import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.io.File;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -75,7 +71,7 @@ public class ComposeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         etDescription = view.findViewById(R.id.etDescription);
         btnCaptureImage = view.findViewById(R.id.btnCaptureImage);
-        ivPostImage = view.findViewById(R.id.ivPostImage);
+        ivPostImage = view.findViewById(R.id.ivImage);
         btnSubmit = view.findViewById(R.id.btnSubmit);
 
         btnCaptureImage.setOnClickListener(new View.OnClickListener() {
